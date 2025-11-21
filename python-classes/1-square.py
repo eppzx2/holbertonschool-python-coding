@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-this project is about writing if conditions and raise an exception inside of class
+if conditions and raise an exception inside of class
 """
 
 

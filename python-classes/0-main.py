@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-Square = __import__('0-square').Square
+Square = __import__('0-square').Square #import module
 
-my_square = Square(3)
-print(type(my_square))
+my_square = Square(3)   
+print(type(my_square))  #square values
 print(my_square.__dict__)
 
 try:
-    print(my_square.size)
+    print(my_square.size)    #exception handling
 except Exception as e:
     print(e)
 

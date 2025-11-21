@@ -3,7 +3,10 @@
 This module defines a square class
 '''
 class Square:
-    def __init__(self, size):
+''''
+Represents a square
+'''
+def __init__(self, size):
         self.__size = size
 
 

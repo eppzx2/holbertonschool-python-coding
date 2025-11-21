@@ -5,7 +5,7 @@ Simple class
 
 
 class Square:
-"""public instance method that returns the current square area"""  
+    """public instance method that returns the current square area"""  
 
     def __init__(self, size=0):
         if type(size) is not int:

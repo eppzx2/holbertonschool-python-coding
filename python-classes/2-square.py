@@ -5,7 +5,7 @@ Simple class
 
 
 class Square:
-    """ the current square area"""  
+    """ the current square area"""
 
     def __init__(self, size=0):
         if type(size) is not int:

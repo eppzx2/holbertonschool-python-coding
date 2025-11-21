@@ -3,7 +3,7 @@
 This module defines a square class
 """
 class Square:
-"""Represents a square"""
+    """Represents a square"""
 
     def __init__(self, size):
         self.__size = size

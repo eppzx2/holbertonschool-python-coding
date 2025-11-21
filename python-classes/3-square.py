@@ -5,16 +5,14 @@ complex task
 
 
 class Square:
-    """atributa nezaretli giris temin edir property"""
+    """A property that provides controlled access"""
 
     def __init__(self, size=0):
         self.size = size
 
-
     @property
     def size(self):
         return self.__size
-
 
     @size.setter
     def size(self, value):
